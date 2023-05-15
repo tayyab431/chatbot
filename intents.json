@@ -1,0 +1,208 @@
+
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "How are you",
+          "Is anyone there?",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+         "Hi there, what can I do for you?"
+         
+          
+        ]
+      },
+      {
+        "tag": "welcome",
+        "patterns": ["Hello", "Hi", "Hey"],
+        "responses": [
+          "Hello! Welcome to our clothing website. How can I assist you today?",
+          "Hi there! How may I help you?",
+          "Hey! How can I be of service?"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like today?",
+          "Will it rain today?",
+          "What's the temperature outside?"
+        ],
+        "responses": [
+          "It looks like it's going to be sunny and warm today! Don't forget to wear sunscreen!",
+          "There's a chance of rain later in the day. Be sure to bring an umbrella if you're going out!",
+          "The temperature outside is currently 22°C. It's a great day to be outside!"
+        ]
+      },
+      {
+        "tag": "casual_talk",
+        "patterns": [
+          "What's your favorite color?",
+          "Do you have any hobbies?",
+          "How was your day?"
+        ],
+        "responses": [
+          "That's a tough one! I like so many colors. But if I had to choose, I'd say blue. How about you?",
+          "I love playing chess in my free time. What about you? Do you have any hobbies?",
+          "It was a great day! Thanks for asking. How was your day?"
+        ]
+      },
+      
+      {
+        "tag": "order",
+        "patterns": [
+          "I want to order 500 pieces of jackets",
+          "What kinds of items do you sell?",
+          "How can I place an order?"
+        ],
+        "responses": [
+          "Great, we can definitely fulfill that order for you. Please fill out our order form on the website and one of our sales representatives will get in touch with you shortly.",
+          "We have a wide range of clothing items available for sale. Please browse our website to view our selection and place an order.",
+          "You can easily place an order on our website by selecting the item you want and adding it to your cart. Once you're ready to checkout, you can fill out the order form and complete your purchase."
+        ]
+      },
+      
+   
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "what do you sell",
+          "which brand is available",
+          "what do you have"
+
+          
+        ],
+        "responses": [
+          "Top clothing brands are registered here.",
+          "you can order no of cloths by just a click",
+          "We have different clothing manufacteres",
+          "plenty of brand available here"
+        ]
+      },
+      {
+        "tag": "question",
+        "patterns": [
+          "who build you",
+          "who are you",
+          "what can you do",
+          "what do you have"
+
+          
+        ],
+        "responses": [
+          "Raja tayyab and his group developed me",
+          "Im an AI model which is being developed to help visitor on our clothing site. ",
+          "We have different clothing manufacteres",
+          "We have variety of cloths, kids collection, Men collection, also for Ladies "
+        ]
+      },
+      {
+        "tag": "flirts",
+        "patterns": [
+          "i love you",
+          "You are beautyful",
+          "Am i handsome",
+          "will you marry me"
+
+          
+        ],
+        "responses": [
+          "As an AI model i dont have feelings",
+          "I have no pysical existence thats why you cant say that im beautiful, But thanks for compliment ",
+          "Im not sure that you are handsome or not, but its look like that you are Smart person",
+          "As an AI model i cant marry anyone, sorry ! "
+        ]
+      },
+      {
+        "tag": "information",
+        "patterns": [
+          "i want to place order",
+          "is your payment method secure",
+          "can i talk to the admin "
+          
+
+          
+        ],
+        "responses": [
+          "Yes ! you can easily place an order by simply select the manufacture whoever give you the best price ",
+          "Yes ! our payment method is totally secure ",
+          "Yes ! you can talk to the Admin by going on the help and support"
+          
+        ]
+      },
+     
+      {
+        "tag": "payments",
+        "patterns": [
+          "What payment methods do you accept?",
+          "Can I pay with credit card?",
+          "Do you accept Paypal?"
+        ],
+        "responses": [
+          "We accept payment through Western Union and Moneygram. Unfortunately, we do not currently accept credit card or Paypal payments.",
+          "At this time, we only accept payment through Western Union and Moneygram. We apologize for any inconvenience this may cause.",
+          "We do not accept credit card or Paypal payments, but we do accept payment through Western Union and Moneygram."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "When will my order be delivered?",
+          "How long does shipping take?",
+          "What is your shipping policy?"
+        ],
+        "responses": [
+          "Delivery usually takes 2-4 business days from the date of your order. Shipping times may vary depending on your location and the shipping method you choose.",
+          "Our standard shipping times are 2-4 business days, but you can choose expedited shipping if you need your order sooner.",
+          "Once your order has been processed and shipped, you should receive it within 2-4 business days. Please check our website for more information on shipping options."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+        
+         
+      
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Thank you for visiting our website! Please don't hesitate to contact us if you have any further questions or concerns.",
+          "Goodbye! We appreciate your business and look forward to serving you in the future.",
+          "See you later! Thank you for considering us for your clothing needs."
+        ]
+      }
+      
+        ]}
+
+      
+        
+
+        
+     
+    
+  
+  
+
+  
