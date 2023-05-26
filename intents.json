@@ -1,208 +1,306 @@
-
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "How are you",
-          "Is anyone there?",
-          "Good day"
-        ],
-        "responses": [
-          "Hey :-)",
-         "Hi there, what can I do for you?"
-         
-          
-        ]
-      },
-      {
-        "tag": "welcome",
-        "patterns": ["Hello", "Hi", "Hey"],
-        "responses": [
-          "Hello! Welcome to our clothing website. How can I assist you today?",
-          "Hi there! How may I help you?",
-          "Hey! How can I be of service?"
-        ]
-      },
-      {
-        "tag": "weather",
-        "patterns": [
-          "What's the weather like today?",
-          "Will it rain today?",
-          "What's the temperature outside?"
-        ],
-        "responses": [
-          "It looks like it's going to be sunny and warm today! Don't forget to wear sunscreen!",
-          "There's a chance of rain later in the day. Be sure to bring an umbrella if you're going out!",
-          "The temperature outside is currently 22°C. It's a great day to be outside!"
-        ]
-      },
-      {
-        "tag": "casual_talk",
-        "patterns": [
-          "What's your favorite color?",
-          "Do you have any hobbies?",
-          "How was your day?"
-        ],
-        "responses": [
-          "That's a tough one! I like so many colors. But if I had to choose, I'd say blue. How about you?",
-          "I love playing chess in my free time. What about you? Do you have any hobbies?",
-          "It was a great day! Thanks for asking. How was your day?"
-        ]
-      },
+  "intents": [
+    {
+      "tag": "how are you",
+      "patterns": [
+        "How are you",
+        "Is anyone there?",
+         "Assalam o Alaikum",
+         "Assalam-o-Alaikum"
+      ],
+      "responses": [
+        "Hey :-)",
+       "Hi there, what can I do for you?",
+       "Walaikum Assalam, how can I help you",
+       "Walaikum Assalam, how can I help you"
       
-      {
-        "tag": "order",
-        "patterns": [
-          "I want to order 500 pieces of jackets",
-          "What kinds of items do you sell?",
-          "How can I place an order?"
-        ],
-        "responses": [
-          "Great, we can definitely fulfill that order for you. Please fill out our order form on the website and one of our sales representatives will get in touch with you shortly.",
-          "We have a wide range of clothing items available for sale. Please browse our website to view our selection and place an order.",
-          "You can easily place an order on our website by selecting the item you want and adding it to your cart. Once you're ready to checkout, you can fill out the order form and complete your purchase."
-        ]
-      },
+      ]
+    },
+    {
+      "tag": "welcome",
+      "patterns": ["Hello", "Hi", "Hey","Hi there! I'm looking to buy some new clothes. Can you help me?"],
+      "responses": [
+        "Hello! Welcome to clothing Barters. How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Hey! How can I be of service?",
+        "Could you please let me know the specific clothing items you are interested in?"
+
+      ]
+    },
+    
+    {
+      "tag": "clothing",
+      "patterns":
+       [
+      "What type of clothing products do you offer?",
+       "What kinds of clothes do you sell?",
+       "I'm looking for some casual and trendy outfits for everyday wear. Do you have any recommendations?"
+         
+      ],
+      "responses": [
+        "We offer a wide range of clothing products including shirts, pants, dresses, jackets, and accessories.",
+        "We offer a wide range of clothing products including shirts, pants, dresses, jackets, and accessories.",
+        "Of course! I'd be happy to assist you. What kind of clothing are you interested in?"
+      ]
+    },
+    
+    {
+      "tag": "clothes",
+      "patterns":
+       [
+      "Can I find clothes for special occasions?",
+      "Hi there! I'm looking to buy some new clothes. Can you help me?"
+                 
+      ],
+      "responses": [
+        "Certainly! We offer a collection of dresses and outfits suitable for special occasions like parties, and formal events.",      
+        "Could you please let me know the specific clothing items you are interested in?"
+         
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "I want to order.", 
+        "I want to order wholesale product?",
+        "How can I place an order?",
+        "Can I track my order?"
+      ],
+      "responses": [
+        "Do login into our Webpage and Consult with Our manufacturers.",
+        "Could you please let me know the specific clothing items you are interested in?",
+        "Placing an order is easy! Sign in to your account on our web application, search for a specific item , find the specific manufacturer of the desired item, Click on the manufacturer's profile to access more information about them, such as their products, contact details, there is a chat feature available, click on it to initiate a conversation with the manufacturer.",
+        "Yes, you can track your order once it has been shipped. There is a page of Manage order, where the profiles of the suppliers will be there. It will show whether the order is complete, in progress or late."
+         
+      ]
+    },
+    {
+      "tag": "track order",
+      "patterns": [
+        "Can I track my order?"
+      ],
+      "responses": [ 
+        "Yes, you can track your order once it has been shipped. There is a page of Manage order, where the profiles of the suppliers will be there. It will show whether the order is complete, in progress or late."       
+      ]
+    },
+    {
+      "tag": "bulk",
+      "patterns": [
+        "Do you offer bulk discounts for larger orders?",
+        "Can I request samples before making a bulk order?",
+        "Can I request for sample before placing an order?",
+        "Can I request for sample?"
+         
+      ],
+      "responses": [
+        "Yes, we offer bulk discounts for larger orders. The discount percentage will depend on the quantity and the specific items you are ordering. Please contact our manufacturers for a personalized quote.",
+        "Yes, we understand the importance of quality and fit. We offer sample orders for businesses interested in placing larger orders. Please reach out to our supplier to discuss sample options.",
+        "Yes, we understand the importance of quality and fit. We offer sample orders for businesses interested in placing larger orders. Please reach out to our manufacturers to discuss sample options.",
+        "We offer sample orders for businesses interested in placing larger orders. Please reach out to our sales team to discuss sample options."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "Do you offer international shipping?",
+        "What are your shipping options?",
+        "What is your production lead time?"
+      ],
+      "responses": [
+         "Yes, we offer international shipping to most countries. During the checkout process, you can select your country to see the available shipping options and costs.",
+        "We offer various shipping options to suit your needs. We have standard shipping, which typically takes 3-5 business days, as well as expedited shipping for faster delivery. International shipping is also available.",
+        "Our production lead time varies depending on the order quantity and complexity of the product. Once you provide us with your specific requirements, we will be able to provide you with an estimated lead time."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you offer any discounts?",
+        "Do you have sales or discounts?",
+        "What are your shipping options?",
+        "What is your production lead time?"
+      ],
+      "responses": [
+        "Do Consult with Our manufacturers.",
+        "Yes, we often have sales and discounts on selected items. Keep an eye out for our promotions.",
+        "We offer various shipping options to suit your needs. We have standard shipping, which typically takes 3-5 business days, as well as expedited shipping for faster delivery. International shipping is also available.",
+        "Our production lead time varies depending on the order quantity and complexity of the product. Once you provide us with your specific requirements, we will be able to provide you with an estimated lead time."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What are your payment terms?",
+        "What payment methods do you accept?",
+        "Can I pay with credit card?",
+        "Do you accept Paypal?"
+      ],
+      "responses": [
+        "Customer sent direct deposit to the admin account and his/her order will place. Customer can also use Milestone (payment in chunks) payment method for Bulk order.",
+        "We accept payment through Western Union and Moneygram. Unfortunately, we do not currently accept credit card or Paypal payments.",
+        "At this time, we only accept payment through Western Union and Moneygram. We apologize for any inconvenience this may cause.",
+        "We do not accept credit card or Paypal payments, but we do accept payment through Western Union and Moneygram."
+
+      ]
+    },
+    {
+      "tag": "Account",
+      "patterns": [
+        "How can I login to your website?",
+        "Who can create an account on your website?",
+        "Who can register on your website?"
+         
+      ],
+      "responses": [
+        "Visit our website's homepage. Look for the Login option on the website. Click on the Login option. You will be redirected to the login page. Enter your username or email address and password in the respective fields. Click on the Sign In button. If the provided credentials are correct, you will be successfully logged in to the website.",
+        "Pakistani local supplier. Wholesale clothing distributors or suppliers. Fashion retailers or store owners. Fashion designers or fashion brands. Clothing manufacturers or factories.",
+        "Pakistani local supplier can register here to get clients"
+      ]
+    },
+    {
+      "tag": "casual_talk",
+      "patterns": [
+        "What's your favorite color?",
+        "What is your favorite color?",
+        "Do you have any hobbies?",
+        "How was your day?"
+      ],
+      "responses": [
+        "That's a tough one! I like so many colors. But if I had to choose, I'd say blue. How about you?",
+        "That's a tough one! I like so many colors. But if I had to choose, I'd say blue. How about you?",
+        "I love playing chess in my free time. What about you? Do you have any hobbies?",
+        "It was a great day! Thanks for asking. How was your day?"
+      ]
+    },
+    {
+      "tag": "return-policy",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return an item?"
+         
+      ],
+      "responses": [
+        "We have a flexible return policy. If you receive an item that is damaged or not as described, please contact our customer support within 7 days of delivery to arrange a return or exchange.",
+        "Yes, we have a return policy. If you're not satisfied with your purchase, you can return it within a certain timeframe for a refund or exchange."
+      ]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [ 
+        "Are your clothes available in different sizes?",
+        "Are there any seasonal collections or trends?"
+      ],
+      "responses": [
+        
+        "Yes, we offer a range of sizes to accommodate different body types. Please refer to our manufacturer for measurements and guidance.",
+        "Yes, we regularly update our collections to align with seasonal trends and offer the latest fashion styles."
+      
+      ]
+    },
+    {
+      "tag": "question",
+      "patterns": [
+        "who build you",
+        "who are you",
+        "what can you do",
+        "what do you have"
+
+        
+      ],
+      "responses": [
+        "Raja tayyab and his group developed me",
+        "Im an AI model which is being developed to help visitor on our clothing site. ",
+        "We have different clothing manufacteres",
+        "We have variety of cloths, kids collection, Men collection, also for Ladies "
+      ]
+    },
+    {
+      "tag": "flirts",
+      "patterns": [
+        "i love you",
+        "You are beautyful",
+        "Am i handsome",
+        "will you marry me"
+
+        
+      ],
+      "responses": [
+        "As an AI model i dont have feelings",
+        "I have no pysical existence thats why you cant say that im beautiful, But thanks for compliment ",
+        "Im not sure that you are handsome or not, but its look like that you are Smart person",
+        "As an AI model i cant marry anyone, sorry ! "
+      ]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "i want to place order",
+        "is your payment method secure",
+        "can i talk to the admin "
+      ],
+      "responses": [
+        "Yes ! you can easily place an order by simply select the manufacture whoever give you the best price ",
+        "Yes ! our payment method is totally secure ",
+        "Yes ! you can talk to the Admin by going on the help and support"
+        
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "When will my order be delivered?",
+        "How long does shipping take?",
+        "What is your shipping policy?"
+      ],
+      "responses": [
+        "Delivery usually takes 2-4 business days from the date of your order. Shipping times may vary depending on your location and the shipping method you choose.",
+        "Our standard shipping times are 2-4 business days, but you can choose expedited shipping if you need your order sooner.",
+        "Once your order has been processed and shipped, you should receive it within 2-4 business days. Please check our website for more information on shipping options."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+      
+       
+    
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Thank you for visiting our website! Please don't hesitate to contact us if you have any further questions or concerns.",
+        "Goodbye! We appreciate your business and look forward to serving you in the future.",
+        "See you later! Thank you for considering us for your clothing needs."
+      ]
+    }
+    
+      ]}
+
+    
+      
+
       
    
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
-      },
-      {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "what do you sell",
-          "which brand is available",
-          "what do you have"
-
-          
-        ],
-        "responses": [
-          "Top clothing brands are registered here.",
-          "you can order no of cloths by just a click",
-          "We have different clothing manufacteres",
-          "plenty of brand available here"
-        ]
-      },
-      {
-        "tag": "question",
-        "patterns": [
-          "who build you",
-          "who are you",
-          "what can you do",
-          "what do you have"
-
-          
-        ],
-        "responses": [
-          "Raja tayyab and his group developed me",
-          "Im an AI model which is being developed to help visitor on our clothing site. ",
-          "We have different clothing manufacteres",
-          "We have variety of cloths, kids collection, Men collection, also for Ladies "
-        ]
-      },
-      {
-        "tag": "flirts",
-        "patterns": [
-          "i love you",
-          "You are beautyful",
-          "Am i handsome",
-          "will you marry me"
-
-          
-        ],
-        "responses": [
-          "As an AI model i dont have feelings",
-          "I have no pysical existence thats why you cant say that im beautiful, But thanks for compliment ",
-          "Im not sure that you are handsome or not, but its look like that you are Smart person",
-          "As an AI model i cant marry anyone, sorry ! "
-        ]
-      },
-      {
-        "tag": "information",
-        "patterns": [
-          "i want to place order",
-          "is your payment method secure",
-          "can i talk to the admin "
-          
-
-          
-        ],
-        "responses": [
-          "Yes ! you can easily place an order by simply select the manufacture whoever give you the best price ",
-          "Yes ! our payment method is totally secure ",
-          "Yes ! you can talk to the Admin by going on the help and support"
-          
-        ]
-      },
-     
-      {
-        "tag": "payments",
-        "patterns": [
-          "What payment methods do you accept?",
-          "Can I pay with credit card?",
-          "Do you accept Paypal?"
-        ],
-        "responses": [
-          "We accept payment through Western Union and Moneygram. Unfortunately, we do not currently accept credit card or Paypal payments.",
-          "At this time, we only accept payment through Western Union and Moneygram. We apologize for any inconvenience this may cause.",
-          "We do not accept credit card or Paypal payments, but we do accept payment through Western Union and Moneygram."
-        ]
-      },
-      {
-        "tag": "delivery",
-        "patterns": [
-          "When will my order be delivered?",
-          "How long does shipping take?",
-          "What is your shipping policy?"
-        ],
-        "responses": [
-          "Delivery usually takes 2-4 business days from the date of your order. Shipping times may vary depending on your location and the shipping method you choose.",
-          "Our standard shipping times are 2-4 business days, but you can choose expedited shipping if you need your order sooner.",
-          "Once your order has been processed and shipped, you should receive it within 2-4 business days. Please check our website for more information on shipping options."
-        ]
-      },
-      {
-        "tag": "funny",
-        "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
-        ],
-        "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
-        ]
-        
-         
-      
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon.",
-          "Thank you for visiting our website! Please don't hesitate to contact us if you have any further questions or concerns.",
-          "Goodbye! We appreciate your business and look forward to serving you in the future.",
-          "See you later! Thank you for considering us for your clothing needs."
-        ]
-      }
-      
-        ]}
-
-      
-        
-
-        
-     
-    
-  
   
 
-  
+
+
+
