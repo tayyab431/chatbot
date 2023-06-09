@@ -27,6 +27,36 @@
 
       ]
     },
+    {
+      "tag": "what",
+      "patterns": ["what", "why", "how","i am","now","so","that","this"],
+      "responses": [
+        "is there anything specfic you wanna ask?",
+        "what do you mean, Please elaborate",
+        "you need any help?",
+        "anything wrong !"
+
+      ]
+    },
+    {
+      "tag": "some",
+      "patterns": ["order", "payment", "return","dilivery","fees","shipping","delay","refund"],
+      "responses": [
+        "if you have any issue related to payment, order, dilivery, shipping, return or refund, or delay in order please feel free to contact our support. Thanks",
+        "Return your order if you are not satisfied",
+        "our payment method is secure and riliable",
+        "please contact to our support for any of your quries"
+
+      ]
+    },
+    {
+      "tag": "cloths",
+      "patterns": ["t-shirts", "shirts", "pants"," casuals","sweatshirts","jeans"],
+      "responses": [
+        "We have variety of stuff like t-shirts, pants, casuals, sweatshirts, jeans, hoodies, kids wear, men wear, women collection etc visit our catagories",
+        "yes, there is huge stuff with different variation, colors, sizes you are in right platform"
+       ]
+    },
     
     {
       "tag": "clothing",
@@ -158,6 +188,784 @@
       ]
     },
     {
+      "tag": "t-shirts_material",
+      "patterns": [
+      "What materials are used in t-shirts?",
+      "Can you tell me about the fabric of t-shirts?",
+      "What are t-shirts made of?"
+      ],
+      "responses": [
+      "T-shirts are commonly made of cotton, polyester, or a blend of both materials.",
+      "The most common materials used in t-shirts are cotton and polyester. Some t-shirts may also include a blend of these fabrics.",
+      "T-shirts are typically made of cotton or polyester fabric, or a combination of both for enhanced comfort and durability."
+      ]
+      },
+      {
+      "tag": "t-shirts_styles",
+      "patterns": [
+      "What styles of t-shirts do you offer?",
+      "Can you tell me about different t-shirt styles?",
+      "What types of t-shirts are available?"
+      ],
+      "responses": [
+      "We offer a variety of t-shirt styles, including crew neck, V-neck, scoop neck, and raglan sleeve t-shirts.",
+      "Our collection features different t-shirt styles to suit various preferences, such as crew neck, V-neck, scoop neck, and raglan sleeve t-shirts.",
+      "You'll find a range of t-shirt styles in our inventory, including crew neck, V-neck, scoop neck, and raglan sleeve t-shirts."
+      ]
+      },
+      {
+      "tag": "t-shirts_fit",
+      "patterns": [
+      "How do your t-shirts fit?",
+      "Can you describe the fit of your t-shirts?",
+      "What is the sizing like for your t-shirts?"
+      ],
+      "responses": [
+      "Our t-shirts are designed to provide a comfortable and relaxed fit. We offer a range of sizes, including regular, slim, and plus sizes.",
+      "Our t-shirts come in various fits to accommodate different body types. We have options for regular, slim, and plus sizes, ensuring a great fit for everyone.",
+      "We take pride in offering t-shirts with excellent fit and sizing options. Our range includes regular, slim, and plus sizes to cater to different body shapes."
+      ]
+      },
+      {
+      "tag": "t-shirts_care",
+      "patterns": [
+      "How should I care for my t-shirts?",
+      "What are the care instructions for your t-shirts?",
+      "Can you provide some tips on maintaining t-shirts?"
+      ],
+      "responses": [
+      "To care for your t-shirts, we recommend machine washing them in cold water with like colors. Tumble dry on low heat or air dry to avoid shrinkage and preserve the print.",
+      "For optimal care of your t-shirts, we suggest washing them inside out in cold water. Use a mild detergent and avoid bleach. Either tumble dry on low heat or air dry to maintain their quality.",
+      "Maintaining your t-shirts is easy. Machine wash them in cold water with similar colors. Avoid using harsh chemicals or bleach. Tumble dry on low or hang them to dry to prevent shrinking and fading."
+      ]
+      },
+      {
+      "tag": "t-shirts_prints",
+      "patterns": [
+      "What types of prints do your t-shirts have?",
+      "Can you tell me about the designs on your t-shirts?",
+      "Do you offer t-shirts with graphics or patterns?"
+      ],
+      "responses": [
+      "Our t-shirts feature a variety of prints, including graphic designs, logos, patterns, and typography.",
+      "We have a wide selection of t-shirts with different prints and designs. You'll find graphic prints, logos, patterns, and typography among our collection.",
+      "Our t-shirts showcase diverse prints, ranging from eye-catching graphics and patterns to stylish logos and typography."
+      ]
+      },
+      {
+      "tag": "t-shirts_colors",
+      "patterns": [
+      "What colors are available for your t-shirts?",
+      "Can you tell me about the color options for your t-shirts?",
+      "Do you offer t-shirts in different shades?"
+      ],
+      "responses": [
+      "Our t-shirts come in a range of colors, including black, white, gray, blue, red, green, and many more. We offer both basic and vibrant shades to suit various preferences.",
+      "We offer t-shirts in a wide array of colors. You'll find classic hues like black, white, and gray, as well as vibrant options such as blue, red, green, and more.",
+      "You have plenty of color choices when it comes to our t-shirts. From versatile neutrals like black and white to bold shades like blue, red, and green, we have something for everyone."
+      ]
+      },
+      {
+      "tag": "t-shirts_occasions",
+      "patterns": [
+      "What occasions are your t-shirts suitable for?",
+      "Can your t-shirts be worn for special events?",
+      "Are your t-shirts appropriate for casual occasions?"
+      ],
+      "responses": [
+      "Our t-shirts are versatile and can be worn for various occasions. They are great for casual everyday wear, as well as for outings, sports activities, and informal gatherings.",
+      "Our t-shirts are perfect for a wide range of occasions. Whether you need a casual look for everyday wear or want something stylish for outings and events, our t-shirts are a great choice.",
+      "You can wear our t-shirts for numerous occasions. They are ideal for casual outings, weekend plans, sports activities, and relaxed social events."
+      ]
+      },
+      {
+      "tag": "t-shirts_sizes",
+      "patterns": [
+      "What sizes are available for your t-shirts?",
+      "Can you provide information about the sizing of your t-shirts?",
+      "Do you offer t-shirts in different size options?"
+      ],
+      "responses": [
+      "We offer a wide range of sizes for our t-shirts, including small, medium, large, XL, XXL, and plus sizes. Our size chart provides detailed measurements to help you find the perfect fit.",
+      "Our t-shirts are available in various sizes, ranging from small to XXL, as well as plus sizes. You can refer to our size chart for accurate measurements and select the right fit for you.",
+      "Finding the right size is easy with our range of t-shirts. We offer sizes from small to XXL, including plus sizes. Our size chart provides precise measurements to assist you in choosing the right fit."
+      ]
+      },
+      {
+      "tag": "t-shirts_prices",
+      "patterns": [
+      "What are the prices of your t-shirts?",
+      "Can you tell me about the pricing of your t-shirts?",
+      "Do you offer t-shirts at different price points?"
+      ],
+      "responses": [
+      "Our t-shirts are available at various price points, depending on the style, fabric, and design. Prices range from $X to $Y. Visit our website or store for detailed pricing information.",
+      "The prices of our t-shirts vary depending on factors such as fabric, style, and design. We offer a range of price points to accommodate different budgets. For specific pricing details, please check our website or visit our store.",
+      "We offer t-shirts at different price points to suit various budgets. Prices may vary based on the fabric, style, and design of the t-shirt. For specific pricing information, please refer to our website or contact us directly."
+      ]
+      },
+      {
+      "tag": "t-shirts_brand",
+      "patterns": [
+      "What brands do you carry for t-shirts?",
+      "Can you tell me about the brands of your t-shirts?",
+      "Do you offer t-shirts from popular brands?"
+      ],
+      "responses": [
+      "We carry a variety of brands for our t-shirts, including Addidas, NICKEY, and GUCCI. Each brand offers its unique style, quality, and design.",
+      "Our t-shirts feature a range of popular brands. Some of the brands we offer include Addidas, NICKEY, and GUCCI. Each brand brings its own distinct style and craftsmanship to the table.",
+      "We partner with renowned brands to offer you a diverse selection of t-shirts. You'll find options from Addidas, NICKEY,  GUCCI and more. Each brand represents quality and delivers its own signature aesthetic."
+      ]
+      },
+      {
+        "tag": "pants_styles",
+        "patterns": [
+        "What styles of pants do you offer?",
+        "Can you tell me about the different pant styles available?",
+        "Do you have a variety of pant styles?"
+        ],
+        "responses": [
+        "We offer a wide range of pant styles to cater to different preferences. Some of the styles we have include straight-leg pants, bootcut pants, skinny pants, wide-leg pants, and cropped pants.",
+        "Our collection features various pant styles to suit different tastes. You'll find options such as straight-leg pants, bootcut pants, skinny pants, wide-leg pants, and cropped pants.",
+        "We have an extensive selection of pant styles to choose from. Whether you prefer straight-leg pants, bootcut pants, skinny pants, wide-leg pants, or cropped pants, we have something for everyone."
+        ]
+        },
+        {
+        "tag": "pants_materials",
+        "patterns": [
+        "What materials are your pants made of?",
+        "Can you tell me about the fabric used in your pants?",
+        "Do you offer pants in different materials?"
+        ],
+        "responses": [
+        "Our pants are made from high-quality materials such as cotton, denim, polyester, and blends. Each material offers its unique characteristics in terms of comfort, durability, and style.",
+        "We use a variety of fabrics for our pants, including cotton, denim, polyester, and blends. These materials are chosen for their quality, comfort, and style.",
+        "You'll find our pants crafted from a range of materials, including cotton, denim, polyester, and blends. Each material is selected for its specific attributes, ensuring a comfortable and stylish fit."
+        ]
+        },
+        {
+        "tag": "pants_colors",
+        "patterns": [
+        "What colors are available for your pants?",
+        "Can you tell me about the color options for your pants?",
+        "Do you offer pants in different shades?"
+        ],
+        "responses": [
+        "Our pants come in a variety of colors, including black, white, gray, blue, brown, and more. We offer both classic and trendy shades to match different styles.",
+        "We provide pants in a wide range of colors. From timeless hues like black, white, and gray to contemporary shades like blue, brown, and more, we have something for everyone.",
+        "You have plenty of color choices when it comes to our pants. Whether you prefer versatile neutrals like black and white or prefer bolder tones like blue and brown, we have options to suit your style."
+        ]
+        },
+        {
+        "tag": "pants_sizes",
+        "patterns": [
+        "What sizes are available for your pants?",
+        "Can you provide information about the sizing of your pants?",
+        "Do you offer pants in different size options?"
+        ],
+        "responses": [
+        "We offer a wide range of sizes for our pants, including small, medium, large, XL, XXL, and plus sizes. Our size chart provides detailed measurements to help you find the perfect fit.",
+        "Our pants are available in various sizes, ranging from small to XXL, as well as plus sizes. You can refer to our size chart for accurate measurements and select the right fit for you.",
+        "Finding the right size is easy with our range of pants. We offer sizes from small to XXL, including plus sizes. Our size chart provides precise measurements to assist you in choosing the right fit."
+        ]
+        },
+        {
+        "tag": "pants_occasions",
+        "patterns": [
+        "What occasions are your pants suitable for?",
+        "Can your pants be worn for special events?",
+        "Are your pants appropriate for formal occasions?"
+        ],
+        "responses": [
+        "Our pants are versatile and can be worn for various occasions. They are suitable for casual outings, work environments, and can even be dressed up for formal events.",
+        "You can wear our pants for a range of occasions. They are perfect for casual outings, office settings, and can be styled elegantly for special events or formal gatherings.",
+        "Whether it's a casual day out or a formal occasion, our pants are designed to be versatile. They can be dressed up or down, making them suitable for a wide array of events and settings."
+        ]
+        },
+       {
+      "tag": "jeans",
+      "patterns": [
+      "What are jeans made of?",
+      "What materials are used in jeans?",
+      "Can you tell me about the fabric of jeans?"
+      ],
+      "responses": [
+      "Jeans are typically made of denim fabric, which is a durable cotton twill textile.",
+      "The primary material used in jeans is denim, a strong and durable cotton fabric.",
+      "Jeans are crafted from denim, a sturdy and long-lasting fabric known for its durability and versatility."
+      ]
+      },
+      {
+      "tag": "jeans_styles",
+      "patterns": [
+      "What styles of jeans do you offer?",
+      "What types of jeans are available?",
+      "Can you tell me about different jean styles?"
+      ],
+      "responses": [
+      "We offer a wide range of jean styles, including skinny jeans, bootcut jeans, straight-leg jeans, boyfriend jeans, and high-waisted jeans.",
+      "Our collection includes various jean styles to suit different preferences, such as skinny, bootcut, straight-leg, boyfriend, and high-waisted jeans.",
+      "You'll find a diverse selection of jean styles in our inventory, including skinny, bootcut, straight-leg, boyfriend, and high-waisted jeans."
+      ]
+      },
+      {
+      "tag": "jeans_fit",
+      "patterns": [
+      "How do your jeans fit?",
+      "Can you describe the fit of your jeans?",
+      "What is the sizing like for your jeans?"
+      ],
+      "responses": [
+      "Our jeans are designed to provide a comfortable and flattering fit. We offer a range of sizes, including regular, petite, and plus sizes.",
+      "Our jeans are available in various fits to cater to different body types. We have options for regular, petite, and plus sizes, ensuring a great fit for everyone.",
+      "We take pride in offering jeans with excellent fit and sizing options. Our range includes regular, petite, and plus sizes to accommodate different body shapes."
+      ]
+      },
+      {
+      "tag": "jeans_care",
+      "patterns": [
+      "How should I care for my jeans?",
+      "What are the care instructions for your jeans?",
+      "Can you provide some tips on maintaining jeans?"
+      ],
+      "responses": [
+      "To care for your jeans, we recommend washing them inside out in cold water, using a mild detergent. Avoid excessive washing and tumble drying to preserve their color and shape.",
+      "For optimal care of your jeans, we suggest turning them inside out before washing in cold water. Use a gentle detergent and avoid harsh chemicals or bleach. Air drying is preferable to maintain their quality.",
+      "Maintaining your jeans is easy. Machine wash them in cold water with a gentle detergent, and avoid using bleach. To prevent color fading, turn them inside out before washing and hang them to dry."
+      ]
+      },
+      {
+      "tag": "jeans_occasions",
+      "patterns": [
+      "Are jeans suitable for formal occasions?",
+      "Can I wear jeans to a special event?",
+      "What are the occasions where jeans are appropriate?"
+      ],
+      "responses": [
+      "Jeans are generally considered more casual attire. While they may be acceptable for certain semi-formal events, it's best to opt for dressier options like slacks or trousers for formal occasions.",
+      "Jeans are typically seen as casual wear, and their appropriateness for special events may vary. It's advisable to check the dress code or opt for more formal attire for such occasions.",
+      "While jeans can be versatile, they are generally better suited for casual and everyday wear. For formal occasions, it's recommended to choose more formal clothing options."
+      ]
+      },
+      {
+      "tag": "gymwear_styles",
+      "patterns": [
+      "What styles of gym wear do you offer?",
+      "Can you tell me about the different gym wear styles available?",
+      "Do you have a variety of gym wear options?"
+      ],
+      "responses": [
+      "We offer a wide range of gym wear styles to suit different workout preferences. Some of the styles we have include tank tops, t-shirts, leggings, shorts, and sports bras.",
+      "Our collection features various gym wear styles to cater to different fitness needs. You'll find options such as tank tops, t-shirts, leggings, shorts, and sports bras.",
+      "We have an extensive selection of gym wear styles to choose from. Whether you prefer tank tops, t-shirts, leggings, shorts, or sports bras, we have something for everyone."
+      ]
+      },
+      {
+      "tag": "gymwear_materials",
+      "patterns": [
+      "What materials are your gym wear made of?",
+      "Can you tell me about the fabric used in your gym wear?",
+      "Do you offer gym wear in different materials?"
+      ],
+      "responses": [
+      "Our gym wear is made from high-performance materials such as moisture-wicking fabrics, polyester blends, and breathable materials. These materials are chosen for their comfort, durability, and sweat-wicking properties.",
+      "We use a variety of fabrics for our gym wear, including moisture-wicking materials, polyester blends, and breathable fabrics. These materials are specifically selected to enhance your workout experience.",
+      "You'll find our gym wear crafted from a range of high-quality materials, including moisture-wicking fabrics, polyester blends, and breathable textiles. These materials help keep you comfortable and dry during your workouts."
+      ]
+      },
+      {
+      "tag": "gymwear_sizes",
+      "patterns": [
+      "What sizes are available for your gym wear?",
+      "Can you provide information about the sizing of your gym wear?",
+      "Do you offer gym wear in different size options?"
+      ],
+      "responses": [
+      "We offer a wide range of sizes for our gym wear, including small, medium, large, and XL. Our size chart provides detailed measurements to help you find the perfect fit for your workouts.",
+      "Our gym wear is available in various sizes, ranging from small to XL. You can refer to our size chart for accurate measurements and select the right fit to support your fitness activities.",
+      "Finding the right size is easy with our range of gym wear. We offer sizes from small to XL, ensuring that you can find the perfect fit to enhance your workout performance."
+      ]
+      },
+      {
+      "tag": "gymwear_care",
+      "patterns": [
+      "How should I care for my gym wear?",
+      "What is the recommended care routine for your gym wear?",
+      "Do you have any specific instructions for washing gym wear?"
+      ],
+      "responses": [
+      "To ensure the longevity of your gym wear, we recommend following the care instructions on the garment's label. Typically, it is best to wash them in cold water, on a gentle cycle, and avoid using harsh detergents or fabric softeners. Air drying is often recommended to maintain the fabric's quality.",
+      "Proper care is essential for maintaining the performance of your gym wear. We suggest following the care guidelines provided on the garment's label. In general, washing in cold water, using a gentle cycle, and avoiding harsh chemicals or fabric softeners will help preserve the quality of the fabric.",
+      "Taking care of your gym wear is crucial for its longevity. We advise following the care instructions mentioned on the garment's label. Typically, washing in cold water, using a mild detergent, and air drying are recommended to keep your gym wear in optimal condition."
+      ]
+      },
+      {
+      "tag": "gymwear_purchase",
+      "patterns": [
+      "Where can I purchase your gym wear?",
+      "Do you have an online store for gym wear purchases?",
+      "Can you provide information on how to buy your gym wear?"
+      ],
+      "responses": [
+      "You can purchase our gym wear directly from our online store. Simply visit our website, browse through our collection, select the items you like, and proceed to checkout. We offer secure payment options and worldwide shipping for your convenience.",
+      "We have an online store dedicated to gym wear purchases. Visit our website to explore our range, add your desired items to the cart, and complete the purchase process. We ensure secure transactions and provide global shipping services.",
+      "Buying our gym wear is easy and convenient through our online store. Just head to our website, choose the gym wear you want, add them to your cart, and proceed to checkout. We offer secure payment methods and reliable worldwide shipping."
+      ]
+      },
+      {
+      "tag": "hoodie_styles",
+      "patterns": [
+      "What styles of hoodies do you offer?",
+      "Can you tell me about the different hoodie styles available?",
+      "Do you have a variety of hoodie options?"
+      ],
+      "responses": [
+      "We offer a wide range of hoodie styles to suit different preferences. Some of the styles we have include pullover hoodies, zip-up hoodies, and hoodie sweatshirts.",
+      "Our collection features various hoodie styles to cater to different fashion choices. You'll find options such as pullover hoodies, zip-up hoodies, and hoodie sweatshirts.",
+      "We have an extensive selection of hoodie styles to choose from. Whether you prefer pullover hoodies, zip-up hoodies, or hoodie sweatshirts, we have something for everyone."
+      ]
+      },
+      {
+      "tag": "hoodie_materials",
+      "patterns": [
+      "What materials are your hoodies made of?",
+      "Can you tell me about the fabric used in your hoodies?",
+      "Do you offer hoodies in different materials?"
+      ],
+      "responses": [
+      "Our hoodies are made from high-quality materials such as cotton blends, fleece, and polyester. These materials are chosen for their comfort, durability, and warmth.",
+      "We use a variety of fabrics for our hoodies, including cotton blends, fleece, and polyester. These materials are specifically selected to provide both comfort and style.",
+      "You'll find our hoodies crafted from a range of high-quality materials, including cotton blends, fleece, and polyester. These materials ensure that our hoodies are cozy, durable, and stylish."
+      ]
+      },
+      {
+      "tag": "hoodie_sizes",
+      "patterns": [
+      "What sizes are available for your hoodies?",
+      "Can you provide information about the sizing of your hoodies?",
+      "Do you offer hoodies in different size options?"
+      ],
+      "responses": [
+      "We offer a wide range of sizes for our hoodies, including small, medium, large, and XL. Our size chart provides detailed measurements to help you find the perfect fit.",
+      "Our hoodies are available in various sizes, ranging from small to XL. You can refer to our size chart for accurate measurements and select the right fit for you.",
+      "Finding the right size is easy with our range of hoodies. We offer sizes from small to XL, ensuring that you can find the perfect fit for a comfortable and stylish look."
+      ]
+      },
+      {
+      "tag": "hoodie_care",
+      "patterns": [
+      "How should I care for my hoodies?",
+      "What is the recommended care routine for your hoodies?",
+      "Do you have any specific instructions for washing hoodies?"
+      ],
+      "responses": [
+      "To ensure the longevity of your hoodies, we recommend following the care instructions on the garment's label. Typically, it is best to wash them in cold water, on a gentle cycle, and tumble dry on low heat. Avoid using bleach and ironing on high heat.",
+      "Proper care is essential for maintaining the quality of your hoodies. We suggest following the care guidelines provided on the garment's label. In general, washing in cold water, using a gentle cycle, and avoiding harsh chemicals or high heat will help preserve the fabric and colors.",
+      "Taking care of your hoodies is crucial for their longevity. We advise following the care instructions mentioned on the garment's label. Typically, washing in cold water, using a mild detergent, and air drying or tumble drying on low heat are recommended."
+      ]
+      },
+      {
+      "tag": "hoodie_purchase",
+      "patterns": [
+      "Where can I purchase your hoodies?",
+      "Do you have an online store for hoodie purchases?",
+      "Can you provide information on how to buy your hoodies?"
+      ],
+      "responses": [
+      "You can purchase our hoodies directly from our online store. Simply visit our website, browse through our hoodie collection, select the desired styles and sizes, and proceed to checkout. We offer secure payment options and worldwide shipping.",
+      "We have an online store dedicated to hoodie purchases. Visit our website to explore our range, add your favorite hoodies to the cart, and complete the purchase process. We ensure secure transactions and provide global shipping services.",
+      "Buying our hoodies is convenient through our online store. Just head to our website, choose the hoodies you want, add them to your cart, and proceed to checkout. We offer secure payment methods and reliable worldwide shipping."
+      ]
+      },
+      {
+      "tag": "sweatshirt_styles",
+      "patterns": [
+      "What styles of sweatshirts do you offer?",
+      "Can you tell me about the different sweatshirt styles available?",
+      "Do you have a variety of sweatshirt options?"
+      ],
+      "responses": [
+      "We offer a wide range of sweatshirt styles to suit different preferences. Some of the styles we have include crewneck sweatshirts, hooded sweatshirts, and zip-up sweatshirts.",
+      "Our collection features various sweatshirt styles to cater to different fashion choices. You'll find options such as crewneck sweatshirts, hooded sweatshirts, and zip-up sweatshirts.",
+      "We have an extensive selection of sweatshirt styles to choose from. Whether you prefer crewneck sweatshirts, hooded sweatshirts, or zip-up sweatshirts, we have something for everyone."
+      ]
+      },
+      {
+      "tag": "sweatshirt_materials",
+      "patterns": [
+      "What materials are your sweatshirts made of?",
+      "Can you tell me about the fabric used in your sweatshirts?",
+      "Do you offer sweatshirts in different materials?"
+      ],
+      "responses": [
+      "Our sweatshirts are made from high-quality materials such as cotton blends, fleece, and polyester. These materials are chosen for their comfort, durability, and warmth.",
+      "We use a variety of fabrics for our sweatshirts, including cotton blends, fleece, and polyester. These materials are specifically selected to provide both comfort and style.",
+      "You'll find our sweatshirts crafted from a range of high-quality materials, including cotton blends, fleece, and polyester. These materials ensure that our sweatshirts are cozy, durable, and stylish."
+      ]
+      },
+      {
+      "tag": "sweatshirt_sizes",
+      "patterns": [
+      "What sizes are available for your sweatshirts?",
+      "Can you provide information about the sizing of your sweatshirts?",
+      "Do you offer sweatshirts in different size options?"
+      ],
+      "responses": [
+      "We offer a wide range of sizes for our sweatshirts, including small, medium, large, and XL. Our size chart provides detailed measurements to help you find the perfect fit.",
+      "Our sweatshirts are available in various sizes, ranging from small to XL. You can refer to our size chart for accurate measurements and select the right fit for you.",
+      "Finding the right size is easy with our range of sweatshirts. We offer sizes from small to XL, ensuring that you can find the perfect fit for a comfortable and stylish look."
+      ]
+      },
+      {
+      "tag": "sweatshirt_care",
+      "patterns": [
+      "How should I care for my sweatshirts?",
+      "What is the recommended care routine for your sweatshirts?",
+      "Do you have any specific instructions for washing sweatshirts?"
+      ],
+      "responses": [
+      "To ensure the longevity of your sweatshirts, we recommend following the care instructions on the garment's label. Typically, it is best to wash them in cold water, on a gentle cycle, and tumble dry on low heat. Avoid using bleach and ironing on high heat.",
+      "Proper care is essential for maintaining the quality of your sweatshirts. We suggest following the care guidelines provided on the garment's label. In general, washing in cold water, using a gentle cycle, and avoiding harsh chemicals or high heat will help preserve the fabric and colors.",
+      "Taking care of your sweatshirts is crucial for their longevity. We advise following the care instructions on the label, which usually involve washing them in cold water, using a mild detergent, and drying them on a low heat setting. Avoid bleach and high-temperature ironing to preserve the quality."
+      ]
+      },
+      {
+      "tag": "sweatshirt_purchase",
+      "patterns": [
+      "Where can I purchase your sweatshirts?",
+      "Do you have an online store for sweatshirt purchases?",
+      "Can you provide information on how to buy your sweatshirts?"
+      ],
+      "responses": [
+      "You can purchase our sweatshirts directly from our online store. Simply visit our website, browse through our sweatshirt collection, select your desired styles and sizes, and proceed to checkout. We offer secure payment options and worldwide shipping.",
+      "We have an online store dedicated to sweatshirt purchases. Visit our website to explore our range, add your favorite sweatshirts to the cart, and complete the purchase process. We ensure secure transactions and provide global shipping services.",
+      "Buying our sweatshirts is convenient through our online store. Just head to our website, choose the sweatshirts you want, add them to your cart, and proceed to checkout. We offer secure payment methods and reliable worldwide shipping."
+      ]
+      },
+      {
+       "tag": "men_collection",
+       "patterns": [
+       "What do you have in your men's collection?",
+       "Can you tell me about your men's clothing options?",
+       "Do you offer a wide range of men's clothing?"
+       ],
+       "responses": [
+       "Our men's collection features a diverse range of clothing options. We offer shirts, t-shirts, pants, jeans, suits, jackets, and accessories specifically designed for men. Whether you're looking for casual wear, formal attire, or stylish accessories, we have something to suit every taste and occasion.",
+       "In our men's collection, you'll find a wide variety of clothing choices. We have stylish shirts, comfortable t-shirts, trendy pants and jeans, elegant suits and jackets, and an assortment of accessories to complete your look. Our collection covers both casual and formal styles, ensuring you can find the perfect outfit for any event.",
+       "We take pride in our extensive men's collection. From classic shirts to trendy t-shirts, from stylish pants and jeans to sophisticated suits and jackets, we offer a diverse range of men's clothing options. Complete your look with our selection of accessories, and discover the perfect ensemble for any occasion."
+       ]
+       },
+       {
+       "tag": "men_collection_sizes",
+       "patterns": [
+       "What sizes are available in your men's collection?",
+       "Can you provide information about the sizing of your men's clothing?",
+       "Do you offer a variety of sizes for men's clothing?"
+       ],
+       "responses": [
+       "Our men's collection is available in a wide range of sizes to ensure a perfect fit for everyone. We offer sizes from small to XXL, and our size chart provides detailed measurements to help you find the right size.",
+       "We understand the importance of size inclusivity, and that's why our men's collection is available in a variety of sizes. From small to XXL, we strive to accommodate different body types. Refer to our size chart for accurate measurements and choose the size that suits you best.",
+       "Finding the right size is essential, and we offer a diverse range of sizes in our men's collection. From small to XXL, our clothing is designed to fit various body types. Our size chart will assist you in selecting the perfect size for a comfortable and stylish fit."
+       ]
+       },
+       {
+       "tag": "men_collection_trends",
+       "patterns": [
+       "What are the latest trends in your men's collection?",
+       "Can you tell me about the current fashion trends in men's clothing?",
+       "Do you keep up with the latest styles in men's fashion?"
+       ],
+       "responses": [
+       "Our men's collection is constantly updated to reflect the latest fashion trends. Currently, some popular trends include slim-fit shirts, graphic t-shirts, distressed jeans, tailored suits, and statement accessories. Stay fashionable with our on-trend men's clothing.",
+       "We stay on top of the latest fashion trends in men's clothing, and our collection reflects that. Currently, we have slim-fit shirts, graphic t-shirts, distressed jeans, tailored suits, and stylish accessories in line with the current fashion scene. Explore our collection to stay stylish and up-to-date.",
+       "Keeping up with the latest styles is our priority, and our men's collection showcases the current fashion trends. From slim-fit shirts and graphic t-shirts to distressed jeans and tailored suits, we have the latest styles covered. Complete your look with our range of fashionable accessories."
+       ]
+       },
+       {
+       "tag": "men_collection_sale",
+       "patterns": [
+       "Do you have any sales or discounts on your men's collection?",
+       "Are there any ongoing promotions for men's clothing?",
+       "Can I get discounts on men's clothing?"
+       ],
+       "responses": [
+       "Yes, we often have sales and discounts on our men's collection. Keep an eye on our website or subscribe to our newsletter to stay informed about the latest promotions. Take advantage of special offers to enhance your wardrobe without breaking the bank.",
+       "We regularly offer sales and discounts on our men's clothing line. Make sure to visit our website or sign up for our newsletter to receive updates on ongoing promotions. Enjoy great savings on stylish men's apparel and accessories.",
+       "We frequently run sales and discounts on our men's collection. Stay tuned to our website or subscribe to our newsletter to be notified about the latest promotions. Don't miss the opportunity to grab your favorite men's clothing at discounted prices."
+       ]
+       },
+       {
+      "tag": "women_collection",
+      "patterns": [
+      "What do you have in your women's collection?",
+      "Can you tell me about your women's clothing options?",
+      "Do you offer a wide range of women's clothing?"
+      ],
+      "responses": [
+      "Our women's collection features a diverse range of clothing options. We offer dresses, tops, skirts, pants, jeans, suits, jackets, and accessories specifically designed for women. Whether you're looking for casual wear, formal attire, or stylish accessories, we have something to suit every taste and occasion.",
+      "In our women's collection, you'll find a wide variety of clothing choices. We have elegant dresses, fashionable tops, trendy skirts, comfortable pants and jeans, stylish suits and jackets, and an assortment of accessories to complete your look. Our collection covers both casual and formal styles, ensuring you can find the perfect outfit for any event.",
+      "We take pride in our extensive women's collection. From stunning dresses to stylish tops, from trendy skirts to comfortable pants and jeans, from sophisticated suits and jackets to a range of accessories, we offer a diverse range of women's clothing options. Complete your look with our selection of accessories, and discover the perfect ensemble for any occasion."
+      ]
+      },
+      {
+      "tag": "women_collection_sizes",
+      "patterns": [
+      "What sizes are available in your women's collection?",
+      "Can you provide information about the sizing of your women's clothing?",
+      "Do you offer a variety of sizes for women's clothing?"
+      ],
+      "responses": [
+      "Our women's collection is available in a wide range of sizes to ensure a perfect fit for everyone. We offer sizes from XS to XXL, and our size chart provides detailed measurements to help you find the right size.",
+      "We understand the importance of size inclusivity, and that's why our women's collection is available in a variety of sizes. From XS to XXL, we strive to accommodate different body types. Refer to our size chart for accurate measurements and choose the size that suits you best.",
+      "Finding the right size is essential, and we offer a diverse range of sizes in our women's collection. From XS to XXL, our clothing is designed to fit various body types. Our size chart will assist you in selecting the perfect size for a comfortable and stylish fit."
+      ]
+      },
+      {
+      "tag": "women_collection_trends",
+      "patterns": [
+      "What are the latest trends in your women's collection?",
+      "Can you tell me about the current fashion trends in women's clothing?",
+      "Do you keep up with the latest styles in women's fashion?"
+      ],
+      "responses": [
+      "Our women's collection is constantly updated to reflect the latest fashion trends. Currently, some popular trends include floral prints, maxi dresses, crop tops, high-waisted jeans, blazers, and statement accessories. Stay fashionable with our on-trend women's clothing.",
+      "We stay on top of the latest fashion trends in women's clothing, and our collection reflects that. Currently, we have floral prints, maxi dresses, crop tops, high-waisted jeans, blazers, and stylish accessories in line with the current fashion scene. Explore our collection to stay stylish and up-to-date.",
+      "Keeping up with the latest styles is our priority, and our women's collection showcases the current fashion trends. From floral prints and maxi dresses to crop tops and high-waisted jeans, we have the latest styles covered. Complete your look with our range of fashionable accessories."
+      ]
+      },
+      {
+      "tag": "women_collection_sale",
+      "patterns": [
+      "Do you have any sales or discounts on women's clothing?",
+      "Can I get discounts on your women's collection?",
+      "Are there any special offers on women's clothing?"
+      ],
+      "responses": [
+      "Yes, we frequently offer sales and discounts on our women's collection. Keep an eye on our website or subscribe to our newsletter to stay informed about the latest promotions. Take advantage of special offers to enhance your wardrobe without breaking the bank.",
+      "We regularly provide sales and discounts on our women's clothing line. Make sure to visit our website or sign up for our newsletter to receive updates on ongoing promotions. Enjoy great savings on stylish women's apparel and accessories.",
+      "We frequently run sales and discounts on our women's collection. Stay tuned to our website or subscribe to our newsletter to be notified about the latest promotions. Don't miss the opportunity to grab your favorite women's clothing at discounted prices."
+      ]
+      },
+      {
+      "tag": "kids_collection",
+      "patterns": [
+      "What do you have in your kids' collection?",
+      "Can you tell me about your clothing options for kids?",
+      "Do you offer a wide range of kids' clothing?"
+      ],
+      "responses": [
+      "Our kids' collection features a diverse range of clothing options for boys and girls. We offer tops, bottoms, dresses, shirts, pants, shorts, and accessories specifically designed for kids. Whether you're looking for casual wear, formal attire, or adorable outfits for special occasions, we have something to suit every child's style and preference.",
+      "In our kids' collection, you'll find a wide variety of clothing choices for boys and girls. From stylish tops and bottoms to cute dresses and shirts, we have a range of options to dress your child in fashionable attire. Explore our collection to find the perfect outfits for your little ones.",
+      "We take pride in our extensive kids' collection, offering a variety of clothing options for boys and girls. From comfortable tops and bottoms to charming dresses and shirts, we have a diverse range of kids' clothing. Let your child showcase their style with our fashionable and high-quality garments."
+      ]
+      },
+      {
+      "tag": "kids_collection_sizes",
+      "patterns": [
+      "What sizes are available in your kids' collection?",
+      "Can you provide information about the sizing of your kids' clothing?",
+      "Do you offer a variety of sizes for kids' clothing?"
+      ],
+      "responses": [
+      "Our kids' collection is available in a wide range of sizes to fit children of different ages and sizes. We offer sizes ranging from newborn to teenage years. Refer to our size chart for accurate measurements and select the appropriate size for your child.",
+      "We understand that kids come in different sizes, and that's why our collection offers a variety of sizes. From newborns to teenagers, we have clothing options that will fit your child perfectly. Check our size chart for precise measurements and find the right size for your little one.",
+      "We cater to children of all ages and sizes with our diverse range of sizes in the kids' collection. From newborns to older kids, we ensure that our clothing fits comfortably. Take a look at our size chart to find the ideal size for your child."
+      ]
+      },
+      {
+      "tag": "kids_collection_trends",
+      "patterns": [
+      "What are the latest trends in kids' clothing?",
+      "Can you tell me about the current fashion trends in kids' fashion?",
+      "Do you keep up with the latest styles in kids' clothing?"
+      ],
+      "responses": [
+      "We stay updated with the latest trends in kids' fashion to provide stylish clothing options for your children. Currently, some popular trends include graphic tees, denim jackets, leggings, colorful prints, and comfortable athleisure wear. Dress your kids in fashionable outfits inspired by the latest styles.",
+      "We keep a close eye on the current fashion trends in kids' clothing to ensure our collection reflects the latest styles. Currently, some popular trends include graphic tees, denim jackets, leggings, vibrant prints, and trendy athleisure wear. Let your kids express their style with our fashionable clothing.",
+      "Keeping up with the latest styles in kids' clothing is important to us, and our collection showcases the current fashion trends. From graphic tees and denim jackets to leggings and vibrant prints, we have the latest trends covered. Dress your kids in fashionable and trendy outfits."
+      ]
+      },
+      {
+      "tag": "kids_collection_sale",
+      "patterns": [
+      "Do you have any sales or discounts on kids' clothing?",
+      "Can I get discounts on your kids' collection?",
+      "Are there any special offers on kids' clothing?"
+      ],
+      "responses": [
+      "Yes, we frequently offer sales and discounts on our kids' collection. Keep an eye on our website or subscribe to our newsletter to stay informed about the latest promotions. Take advantage of special offers to dress your kids in stylish clothing at discounted prices.",
+      "We regularly provide sales and discounts on our kids' clothing line. Make sure to visit our website or sign up for our newsletter to receive updates on ongoing promotions. Enjoy great savings on trendy and high-quality kids' apparel.",
+      "We frequently run sales and discounts on our kids' collection. Stay tuned to our website or subscribe to our newsletter to be notified about the latest promotions. Dress your kids in fashionable outfits without exceeding your budget."
+      ]
+      },
+      {
+      "tag": "summer_wear",
+      "patterns": [
+      "What options do you have for summer wear?",
+      "Can you tell me about your summer clothing collection?",
+      "Do you offer summer-appropriate clothing?"
+      ],
+      "responses": [
+      "Our summer wear collection includes a wide range of clothing options to keep you cool and comfortable during the hot season. We have lightweight tops, breathable dresses, shorts, skirts, and stylish swimwear. Explore our collection to find the perfect outfits for your summer wardrobe.",
+      "When it comes to summer clothing, we've got you covered. Our collection features a variety of summer-appropriate options such as breezy tops, flowy dresses, shorts, skirts, and swimwear. Stay stylish and comfortable in our range of outfits designed for the summer season.",
+      "Stay cool and stylish with our summer wear collection. We offer a diverse selection of clothing suitable for the hot weather, including lightweight tops, airy dresses, shorts, skirts, and fashionable swimwear. Find your perfect summer ensemble from our range of options."
+      ]
+      },
+      {
+      "tag": "summer_wear_materials",
+      "patterns": [
+      "What materials are used in your summer wear?",
+      "Can you provide information about the fabrics used in your summer clothing?",
+      "Do you use breathable materials for summer clothing?"
+      ],
+      "responses": [
+      "We prioritize comfort in our summer wear collection and use breathable materials to keep you cool. Our clothing is crafted from lightweight and airy fabrics such as cotton, linen, and rayon. Experience the ultimate comfort and breathability with our summer clothing line.",
+      "When it comes to summer clothing, we choose fabrics that are light and breathable. Our collection features garments made from materials like cotton, linen, and rayon, which allow air circulation and keep you comfortable in the heat. Enjoy the cool and breezy feel of our summer wear.",
+      "We understand the importance of breathable materials for summer wear. That's why our collection is crafted from fabrics like cotton, linen, and rayon, which offer excellent breathability and comfort. Stay cool and relaxed with our summer clothing made from high-quality materials."
+      ]
+      },
+      {
+      "tag": "summer_wear_styling",
+      "patterns": [
+      "Can you provide styling tips for summer wear?",
+      "How can I style my summer outfits?",
+      "Do you have any suggestions for putting together summer looks?"
+      ],
+      "responses": [
+      "When it comes to styling summer wear, embrace light and breezy looks. Pair a flowy dress with sandals and a wide-brimmed hat for a chic and relaxed vibe. Opt for vibrant colors and prints to capture the essence of summer. Don't forget to accessorize with sunglasses and lightweight scarves.",
+      "Styling summer outfits is all about embracing effortless and comfortable looks. Try pairing a loose-fitting top with shorts or a skirt for a casual yet stylish ensemble. Experiment with bright colors and floral patterns to embrace the summertime spirit. Complete your look with accessories like sun hats and statement sunglasses.",
+      "To style your summer outfits, opt for lightweight and comfortable clothing. Pair shorts or skirts with breezy tops for a relaxed look. Experiment with playful prints and vibrant colors to capture the summer vibe. Finish off your outfits with accessories like sun hats, sunglasses, and sandals."
+      ]
+      },
+      {
+      "tag": "summer_wear_care",
+      "patterns": [
+      "How should I care for my summer clothing?",
+      "Do you have any tips for taking care of summer wear?",
+      "What is the recommended maintenance for summer outfits?"
+      ],
+      "responses": [
+      "To ensure the longevity of your summer clothing, follow the care instructions provided on the garment's label. Generally, it's best to wash them in cold water and use a gentle cycle. Air drying is preferred to maintain the integrity of the fabrics. Avoid using harsh chemicals or bleach. Iron or steam on low heat if needed.",
+      "Taking care of your summer wear is essential for preserving their quality. Check the care label on each garment for specific instructions. In general, it's recommended to wash them in cold water and use a mild detergent. Avoid using bleach or harsh chemicals. Hang or lay flat to dry to prevent any shrinkage or damage to the fabric.",
+      "To keep your summer clothing looking its best, it's important to follow the care instructions provided. Typically, you should wash them in cold water with a gentle detergent. Avoid using bleach or strong chemicals. It's best to air dry them to prevent any shrinkage or damage. If ironing is necessary, use a low heat setting."
+      ]
+      },
+      {
+      "tag": "travel_wear",
+      "patterns": [
+      "What should I wear while traveling?",
+      "Can you suggest travel-friendly clothing options?",
+      "Do you have a travel wear collection?"
+      ],
+      "responses": [
+      "When it comes to travel wear, comfort and versatility are key. Opt for breathable fabrics and clothing that allows freedom of movement. Consider packing lightweight tops, comfortable pants or leggings, and versatile layers. Don't forget to bring a travel-friendly jacket or sweater for cooler destinations.",
+      "We understand the importance of travel-friendly clothing. Our collection offers a range of comfortable and versatile options perfect for your travel adventures. From wrinkle-resistant fabrics to convertible clothing, we've got you covered. Stay comfortable and stylish during your journeys with our travel wear.",
+      "Travel in style and comfort with our travel wear collection. We offer a variety of clothing options designed specifically for travelers. Our collection includes wrinkle-resistant garments, versatile layers, and comfortable fabrics. Explore our travel wear line to find the perfect outfits for your trips."
+      ]
+      },
+      {
+      "tag": "travel_wear_packing",
+      "patterns": [
+      "How can I pack my travel wear efficiently?",
+      "Do you have any tips for packing travel-friendly clothing?",
+      "What should I consider when packing my travel outfits?"
+      ],
+      "responses": [
+      "Efficient packing for travel wear starts with selecting versatile pieces that can be mixed and matched. Roll your clothes instead of folding them to save space and prevent wrinkles. Use packing cubes or compression bags to organize your outfits. Consider packing lightweight and quick-drying fabrics that can be easily washed and dried during your trip.",
+      "To pack your travel wear efficiently, opt for clothing items that can be worn in multiple outfits. Roll your clothes instead of folding them to maximize space. Use packing organizers like cubes or compression bags to keep things tidy. Choose lightweight and wrinkle-resistant fabrics that are easy to care for while traveling.",
+      "When packing your travel wear, think about versatility and space optimization. Choose items that can be mixed and matched to create different outfits. Rolling your clothes instead of folding them can save space and minimize wrinkles. Utilize packing cubes or compression bags to keep your clothes organized. Consider packing lightweight fabrics that are easy to wash and dry."
+      ]
+      },
+      {
+      "tag": "travel_wear_accessories",
+      "patterns": [
+      "What accessories should I bring for travel?",
+      "Can you recommend essential accessories for travel wear?",
+      "Are there any must-have travel accessories?"
+      ],
+      "responses": [
+      "Accessories can enhance your travel wear outfits. Consider bringing a versatile scarf or shawl that can be used as a wrap or cover-up. Don't forget a hat or cap to protect yourself from the sun. A crossbody bag or backpack is practical for carrying essentials. Depending on your destination, bring comfortable walking shoes or sandals.",
+      "When it comes to travel accessories, think practicality and style. A scarf or sarong can serve multiple purposes, from a beach cover-up to a shawl for cooler evenings. A lightweight and foldable hat is essential for sun protection. Opt for a crossbody bag or backpack to keep your belongings secure and hands-free. Choose comfortable and versatile shoes suitable for walking.",
+      "To complete your travel wear ensemble, consider essential accessories. A scarf or pashmina is versatile and can be used as a wrap or blanket during your journey. Don't forget a hat or cap to shield yourself from the sun. A crossbody bag or backpack is convenient for carrying your belongings. Choose comfortable shoes suitable for walking or exploring."
+      ]
+      },
+      {
+      "tag": "travel_wear_seasonal",
+      "patterns": [
+      "What should I wear for travel in different seasons?",
+      "Can you suggest travel wear for different weather conditions?",
+      "Do you have seasonal travel wear recommendations?"
+      ],
+      "responses": [
+      "For travel in different seasons, adapt your clothing to the weather conditions. In cold weather, layer up with thermal tops, sweaters, and a warm coat. Bring waterproof outerwear and sturdy boots for rainy destinations. In warm weather, opt for lightweight and breathable fabrics like cotton or linen. Don't forget sunscreen and a hat for sun protection.",
+      "When traveling in different seasons, it's important to dress appropriately. In colder weather, pack warm layers such as sweaters, jackets, and thermals. Bring waterproof and windproof outerwear for rainy or snowy destinations. In warmer weather, choose lightweight and breathable fabrics like cotton or linen. Don't forget sun protection with sunscreen and a hat.",
+      "Traveling in different seasons requires suitable clothing choices. For colder weather, layer up with thermals, sweaters, and a waterproof jacket. Pack appropriate footwear for snow or rain. In warmer weather, opt for lightweight and moisture-wicking fabrics like cotton or linen. Remember to bring sun protection such as sunscreen and a hat."
+      ]
+      },
+      {
+      "tag": "website_registration",
+     "patterns": [
+       "How can I register as a manufacturer on your website?",
+      "What is the process to become a registered manufacturer on your website?",
+       "Can you guide me through the registration steps for manufacturers?"
+     ],
+      
+      "responses": [
+      "To register as a manufacturer on our website, please follow these steps:1 Visit our website and navigate to the 'Join' page. Click on the 'Contineu' button. Fill out the required information in the registration form, including your company name, contact details, and manufacturing capabilities. Provide any additional details or documentation requested.Submit the registration form.Once your registration is received, our team will review your application. If approved, you will receive further instructions to complete the registration process and gain access to manufacturer-specific features on our website."
+      ]
+    },
+    {
+      
+      "tag": "benefits_of_registration",
+      "patterns": [
+      "What are the benefits of registering as a manufacturer on your website?",
+      "Why should I become a registered manufacturer on your website?",
+      "What advantages do I have as a registered manufacturer?"
+      ],
+      "responses": [
+      "Registering as a manufacturer on our website offers several benefits: Increased visibility: Your company and products will be showcased to our website's users, including potential buyers and partners.2) Access to a larger customer base: You can reach a wider audience of retailers, wholesalers, and distributors who are actively searching for manufacturing partners.3) Networking opportunities: Our platform allows you to connect and collaborate with other industry professionals, fostering potential business partnerships.4) Exclusive features: Registered manufacturers have access to special features and tools designed to streamline operations, manage inquiries, and enhance communication.5) These are just a few advantages of becoming a registered manufacturer on our website. Registering is free and can open up new opportunities for your business."
+      ]
+    },
+    {
+      
+      
+      "tag": "registration_requirements",
+      "patterns": [
+      "What are the requirements for manufacturer registration?",
+      "Are there any specific criteria for registering as a manufacturer?",
+      "What information do I need to provide during the registration process?"
+      ],
+      "responses": [
+      "The manufacturer registration process requires you to provide certain information and meet specific criteria. While the exact requirements may vary, typical information requested includes:1) Company details: This includes your company name, address, contact information, and website (if applicable).2) Manufacturing capabilities: You may need to specify your production capacity, product categories, minimum order quantities, and any specialized services or certifications.3) Portfolio or references: Some platforms may ask for samples of your previous work, client references, or certifications.4) Legal documentation: Depending on the platform and region, you may need to provide business registration documents, tax identification numbers, or other legal credentials.5) These requirements help ensure that registered manufacturers meet certain standards and provide accurate information to potential customers."
+      ]
+    },
+      {
+       "tag": "user_problem",
+       "patterns": [
+       "I'm having trouble logging in to my account.",
+       "I forgot my password. How can I reset it?",
+       "I'm experiencing technical difficulties with your website.",
+       "I can't access certain features on my user account.",
+       "My account has been locked. What should I do?",
+       "I'm unable to update my profile information."
+       ],
+       "responses": [
+       "We apologize for the inconvenience. Please try the following solutions:1) Logging in issue: Double-check your username/email and password for accuracy. If you still can't log in, click on the 'Forgot Password' link on the login page to initiate a password reset.2) Password reset: Visit the 'Forgot Password' page and enter your registered email address. You'll receive an email with instructions on how to reset your password. Follow the steps provided.3) Technical difficulties: Clear your browser cache and cookies, then refresh the page. If the problem persists, try accessing our website from a different browser or device.4) Limited access to features: Ensure that you are logged in with the correct user account. Some features may be available only to certain user types or require additional permissions.5) Account lockout: Contact our customer support team to resolve the issue and regain access to your account.6) Profile update issue: Make sure you have entered the required information correctly and that any file uploads meet the specified requirements. If the problem persists, contact our support team for assistance."
+       ]
+       },
+       {
+       "tag": "user_support",
+       "patterns": [
+       "How can I contact your customer support?",
+       "What is the best way to get help with my user account?",
+       "Do you have a support team to assist with user issues?",
+       "I need assistance with my account. Who should I contact?"
+       ],
+       "responses": [
+       "We're here to help! You can contact our customer support team in the following ways:1) Phone support: Call our dedicated support helpline at +800 756 678. Our support agents are available [working hours] to assist you.2) Email support: Send an email to bartersupport@gmail.com with a detailed description of your issue. Our support team will respond as soon as possible.3) Live chat: Visit our website and look for the live chat feature, usually located in the bottom corner. Chat with one of our support representatives in real-time.4) Help center: Check out our comprehensive help center on our website. You'll find FAQs, guides, and troubleshooting steps that may address your concerns.5) No matter which method you choose, our support team is dedicated to resolving your user account issues and providing you with the assistance you need."
+       ]
+       },
+      {
       "tag": "casual_talk",
       "patterns": [
         "What's your favorite color?",
